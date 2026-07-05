@@ -1,0 +1,16 @@
+# CZSC 缠论量化分析平台 - Python 依赖
+# 安装: pip install -r requirements.txt
+
+# 缠论核心库 (Rust编译版，需Python 3.9+)
+czsc>=0.10.12
+
+# GUI框架
+PyQt6>=6.5.0
+pyqtgraph>=0.14.0
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 通达信集成 (仅V1.02需要，且需本地安装通达信客户端)
+# tqcenter 由通达信客户端自带，无需额外安装
